@@ -28,7 +28,7 @@ Objetivo: Aprender estruturas de repetição e manipulação de dados sem o uso 
 ## Estruturas de Repetição (Loops)
 ### Exercício 1: Contagem Progressiva
 ### Exercício 2: Contagem Regressiva
-### Exercício 3: Números Pares
+### Exercício 3: Contagem de números Pares
 ### Exercício 4: Soma de Números
 ### Exercício 5: Tabuada
 ### Exercício 6: Fatorial

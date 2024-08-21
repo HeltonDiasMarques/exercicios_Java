@@ -12,9 +12,13 @@ public class Main {
         System.out.println("Insira o número que deseja verificar: ");
         num = scanner.nextInt();
 
-        if(num%2==0){
-            par = true;
+        if (num == 0) {
+            if(num%2==0){
+                par = true;
+            }
+            System.out.println(par);
+        }else{
+            System.out.println("0 é um número neutro, insira outro.");
         }
-        System.out.println(par);
     }
 }
