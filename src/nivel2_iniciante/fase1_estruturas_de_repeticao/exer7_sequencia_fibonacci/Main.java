@@ -7,15 +7,20 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int fibonacci = 1;
-
+        int aux;
+        int result = 0;
         int limit;
 
         System.out.println("Insira aonde que parar na sequência: ");
         limit = scanner.nextInt();
 
-        while(limit > fibonacci ){
-            
+        System.out.println(fibonacci);
+
+        while(fibonacci<limit){
+            aux = fibonacci;
+            fibonacci  = result + fibonacci;
             System.out.println(fibonacci);
+            result = aux;
         }
     }
 }
