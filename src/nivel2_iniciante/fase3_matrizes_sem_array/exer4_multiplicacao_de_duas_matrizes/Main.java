@@ -6,17 +6,18 @@ public class Main {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
 
-        int [][] matriz1 = {{1, 2, 3, 4, 5},
+        int [][] matriz1 = {{2, 2, 2, 2, 2},
+                            {2, 2, 2, 2, 2}};
+
+        int [][] matriz2 = {{1, 2, 3, 4, 5},
                             {6, 7, 8, 9, 10}};
 
-        int [][] matriz2 = {{6, 7, 8, 9, 10},
-                            {1, 2, 3, 4, 5}};
+        int [][] matriz3 = {{0, 0, 0, 0, 0},
+                            {0, 0, 0, 0, 0}};
 
-        int [][] matriz3 = {{},{}};
-
-        for(int i = 0; i < matriz1.length; i++){
-            for(int j = 0; j< matriz1.length; j++){
-                matriz3[i][j] = matriz1[i][j] + matriz2[i][j];
+        for(int i = 0; i < 5; i++){
+            for(int j = 0; j < 5; j++){
+                matriz3[i][j] = matriz1[i][j] * matriz2[i][j];
                 System.out.println(matriz3[i][j]);
             }
         }
