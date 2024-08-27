@@ -19,7 +19,6 @@ public class Main {
     }
 
     public static int recursivo(int fatorial){
-
         if(fatorial == 1){
             return 1;
         }
