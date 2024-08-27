@@ -76,42 +76,22 @@ Objetivo: Introduzir conceitos de orientação a objetos, introduzir arrays e ma
 ### Exercício 7: Criação de Classe Produto com Métodos para Aplicar Desconto
 ### Exercício 8: Criação de um Sistema de Cadastro de Clientes Simples
 
-## Introdução a Arrays
-### Exercício 1: Criação de um Array de Inteiros e Exibição de Seus Elementos
-### Exercício 2: Soma de Todos os Elementos de um Array
-### Exercício 3: Encontre o Maior Elemento em um Array
-### Exercício 4: Encontre o Menor Elemento em um Array
-### Exercício 5: Média dos Elementos de um Array
-### Exercício 6: Contagem de Elementos Pares em um Array
-### Exercício 7: Ordenação de um Array (Bubble Sort)
-### Exercício 8: Busca de um Elemento Específico em um Array
-### Exercício 9: Reversão de um Array
-### Exercício 10: Eliminação de Duplicatas em um Array
+## Lambda e Streams
+### Exercício 1: Introdução ao Uso de Expressões Lambda
+### Exercício 2: Uso de Streams para Filtragem e Transformação de Dados
+### Exercício 3: Aplicação de Operações em Stream (map, filter, reduce)
 
-## Listas e Coleções
-### Exercício 1: Criação de uma Lista de Inteiros e Exibição dos Elementos
-### Exercício 2: Adição, Remoção e Busca de Elementos em uma Lista
-### Exercício 3: Ordenação de uma Lista de Strings
-### Exercício 4: Criação de um Sistema de Cadastro de Alunos Usando Listas
-### Exercício 5: Uso de HashMap para Armazenar Dados de Produtos com Preço
+## Threads
+### Exercício 1: Criação de Threads Simples
+### Exercício 2: Sincronização de Threads
+### Exercício 3: Comunicação entre Threads
 
-## Tratamento de Exceções
-### Exercício 1: Tratamento de Exceções Simples com try-catch
-### Exercício 2: Criação de Exceções Personalizadas
-### Exercício 3: Tratamento de Exceções em Operações de Leitura e Escrita de Arquivos
-
-# Nível 3: Intermediário
-Objetivo: Introduzir conceitos de orientação a objetos, introduzir arrays e manipulação de listas, e tratar exceções.
-
-## Introdução à Orientação a Objetos
-### Exercício 1: Criação de Classe Carro com Atributos e Métodos
-### Exercício 2: Criação de Classe Pessoa com Métodos para Definir Nome e Idade
-### Exercício 3: Criação de Construtores e Métodos Getters e Setters
-### Exercício 4: Criação de Método para Calcular a Idade Baseada no Ano de Nascimento
-### Exercício 5: Criação de Classe Conta Bancária com Métodos de Depósito e Saque
-### Exercício 6: Uso de Modificadores de Acesso (private, public)
-### Exercício 7: Criação de Classe Produto com Métodos para Aplicar Desconto
-### Exercício 8: Criação de um Sistema de Cadastro de Clientes Simples
+## SOLID(Princípios de Design)
+### Exercício 1: Aplicação do Princípio da Responsabilidade Única (SRP)
+### Exercício 2: Aplicação do Princípio do Aberto/Fechado (OCP)
+### Exercício 3: Aplicação do Princípio do Substituição de Liskov (LSP)
+### Exercício 4: Aplicação do Princípio da Segregação de Interfaces (ISP)
+### Exercício 5: Aplicação do Princípio da Inversão da Dependência (DIP)
 
 ## Introdução a Arrays
 ### Exercício 1: Criação de um Array de Inteiros e Exibição de Seus Elementos
@@ -139,6 +119,7 @@ Objetivo: Introduzir conceitos de orientação a objetos, introduzir arrays e ma
 
 # Nível 4: Avançado
 Objetivo: Desenvolver sistemas mais complexos, aplicar padrões de projeto e trabalhar com APIs e banco de dados.
+
 
 ## Sistemas Orientados a Objetos
 ### Exercício 1: Sistema de Gestão de Biblioteca (Cadastro de Livros e Clientes, Empréstimos)
