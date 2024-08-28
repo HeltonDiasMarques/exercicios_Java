@@ -1,0 +1,2 @@
+package nivel3_intermediario.fase2_introducao_a_arrays.exer6_contagem_de_elementos_pares_em_um_array;public class Main {
+}
