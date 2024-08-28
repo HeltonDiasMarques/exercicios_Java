@@ -6,18 +6,13 @@ public class Main {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
         Validador validador = new Validador();
-        Idade idade = new Idade();
+
         int ano;
-        int idade1 = 0;
 
         System.out.print("Insira o seu ano de nascimento: ");
         ano = scanner.nextInt();
 
-
-        validador.descobrir(ano, idade1);
-
-        idade.definir(idade1);
-
-        System.out.print("Você tem "+ idade1 +" anos.\n");
+        int idade  = validador.descobrir(ano);
+        System.out.print("Você tem "+ idade +" anos.\n");
     }
 }
