@@ -1,5 +1,6 @@
 package nivel3_intermediario.fase2_introducao_a_arrays.exer7_ordenacao_de_um_array;
 
+//import java.util.ArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class Main {
         String input;
 
         while(true){
-            System.out.print("Insira os números(para encerrar não insira nada)");
+            System.out.print("Insira os números(para encerrar não insira nada): ");
             input = scanner.nextLine();
             if(input.isBlank()){
                  break;
@@ -22,14 +23,16 @@ public class Main {
 
         for(int i = 0; i < numeros.size(); i++){
             for(int j = 0; j < numeros.size(); j++){
-                if(numeros.get(i) > numeros.get(j)){
-                    int aux1 = numeros.get(i);
-                    int aux2 = numeros.get(j);
-
-
-                }
+               if(numeros.get(i) < numeros.get(j)){
+                   int aux = numeros.get(i);
+                   numeros.set(i, numeros.get(j));
+                   numeros.set(j, aux);
+               }
             }
         }
 
+        for(int i = 0; i <= 10; i++){
+            System.out.println(numeros.get(i));
+        }
     }
 }
